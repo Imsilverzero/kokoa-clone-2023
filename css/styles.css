@@ -29,13 +29,33 @@ body {
 #login-form input {
   border: none;
   padding: 17px 0;
+}
+
+#login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   transition: border-color 0.3s ease-in-out;
 }
+
 #login-form input:focus {
   border-color: var(--yellow);
 }
 #login-form input::placeholder {
   font-size: 18px;
   opacity: 0.7;
+}
+#login-form input[type="submit"] {
+  margin: 30px 0 20px 0;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: backgroun-color 0.5s ease-in-out;
+}
+#login-form input[type="submit"]:active {
+  background-color: var(--yellow);
+}
+#login-form a {
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+  font-size: 15px;
 }
