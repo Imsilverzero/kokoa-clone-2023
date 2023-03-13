@@ -3,7 +3,16 @@
 @import "reset.css";
 @import "variable.css";
 @import "screens/login.css";
+
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Ubuntu", sans-serif;
+}
+.nav {
+  background-color: #f9f9fa;
+  padding: 10px 40px;
+}
+.nav__li {
+  display: flex;
+  justify-content: space-between;
 }
