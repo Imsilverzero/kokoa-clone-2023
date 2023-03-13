@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Ubuntu:wght@300;500&display=swap");
-@import "components/status-bar.css";
 @import "reset.css";
 @import "variable.css";
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+/* screens */
 @import "screens/login.css";
-@import "screens/nav-bar.css";
-
+@import "screens/friends.css";
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Ubuntu", sans-serif;
-  height: 1000vh;
+  color: #2f363e;
 }
