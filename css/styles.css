@@ -1,28 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Ubuntu:wght@300;500&display=swap");
+@import "status-bar.css";
+@import "reset.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Ubuntu", sans-serif;
 }
-.status-bar {
+.welcome-header {
   display: flex;
-  justify-content: center;
-}
-.status-bar__column {
-  width: 33%;
-}
-.status-bar__column:first-child span {
-  margin: 5px;
-}
-.status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column:last-child {
-  display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
   align-items: center;
 }
-.fa-battery-quarter {
-  margin: 0px 5px;
+.welcome-header__title {
+  margin: 90px 0 40px 0;
+  font-size: 35px;
+}
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.6;
+  margin-bottom: 110px;
 }
