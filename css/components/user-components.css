@@ -20,3 +20,11 @@
   opacity: 0.5;
   margin-top: 10px;
 }
+.user-component__avatar-xl {
+  height: 80px;
+  width: 80px;
+}
+.user-component__avatar--sm {
+  height: 60px;
+  width: 60px;
+}

@@ -4,8 +4,12 @@
   padding: 15px;
   background-color: #fafafa;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 #friends-display__link i {
   color: rgba(0, 0, 0, 0.2);
   margin: 0 10px;
+}
+.friends-screen {
+  padding: 0 var(--horizontal-space);
 }
