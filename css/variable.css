@@ -1,6 +1,6 @@
 :root {
   --yellow: #fae100;
-  --horizontal-space: 25px;
+  --horizontal-space: 35px 25px;
   --components-font-color: rgb(157, 157, 157);
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
