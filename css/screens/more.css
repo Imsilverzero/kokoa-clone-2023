@@ -16,7 +16,7 @@
 }
 .more-suggestion__column {
   display: flex;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .more-suggestion__icon {
   display: flex;
@@ -26,7 +26,16 @@
   width: 25%;
   color: var(--components-font-color);
 }
+.more-suggestion__icon-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 .more-suggestion__icon i {
-  margin-bottom: 15px;
-  color: var(--yellow);
+  color: white;
 }
