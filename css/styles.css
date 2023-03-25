@@ -18,4 +18,5 @@ body {
 }
 main {
   padding: 0 var(--horizontal-space);
+  padding-bottom: 100px;
 }
