@@ -23,11 +23,14 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <a href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
         <a href="#"><i class="fa-solid fa-music fa-2x"></i></a>
-        <a href="#"><i class="fa-solid fa-gear fa-2x"></i></a>
+        <a href="#" class="screen-header__setting"
+          ><i class="fa-solid fa-gear fa-2x"></i>
+          <div class="screen-header__setting--red-dot"></div
+        ></a>
       </div>
     </header>
     <nav class="nav">
@@ -39,7 +42,6 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
             <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
@@ -55,12 +57,8 @@
         </li>
       </ul>
     </nav>
-    <a id="friends-display__link" href="#">
-      <i class="fa-solid fa-circle-info"></i>
-      Friend's Names Display
-      <i class="fa-solid fa-chevron-right"></i>
-    </a>
-    <main class="main-screen">
+
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -69,31 +67,57 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Nicolas</h4>
-            <!-- <h6 class="user-component__subtitle">
-            your text
-          </h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <span>channel</span>
-        <i class="fa-solid fa-chevron-up fa-xs"></i>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="stitch2.jpg"
-            class="user-component__avatar user-component__avatar--sm"
-          />
-          <div class="user-component__text">
-            <h3 class="user-component__title--not-bold">channel</h3>
+            <div>
+              <h6 class="user-component__subtitle">+010 1004 1004</h6>
+              <span class="user-component__notice">!</span>
+            </div>
           </div>
         </div>
         <div class="user-component__column">
-          <div>
-            <span>2</span> <i class="fa-solid fa-chevron-right fa-xs"></i>
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-calendar-check fa-2x"></i>
+          <span>Calender</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-hard-drive fa-2x"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-face-smile fa-2x"></i>
+          <span>Emotions</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-paint-roller fa-2x"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-piggy-bank fa-2x"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-comments fa-2x"></i>
+          <span>Openchat</span>
+        </div>
+        <div class="icon-row__icon"></div>
+        <div class="icon-row__icon"></div>
+      </div>
+      <div class="more-suggestion">
+        <h4>Suggestion</h4>
+        <div class="more-suggestion__column">
+          <div class="more-suggestion__icon">
+            <i class="fa-solid fa-quote-right fa-2x"></i>
+            <span>Kakao Story</span>
           </div>
+          <div class="more-suggestion__icon">
+            <i class="fa-solid fa-ghost fa-2x"></i>
+            <span>Kakao Games</span>
+          </div>
+          <div class="more-suggestion__icon"></div>
+          <div class="more-suggestion__icon"></div>
         </div>
       </div>
     </main>

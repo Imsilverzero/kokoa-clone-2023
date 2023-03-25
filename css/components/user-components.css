@@ -6,7 +6,11 @@
 .user-component {
   justify-content: space-between;
 }
-
+.user-component__text div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
 .user-component__avatar {
   height: 70px;
   width: 70px;
@@ -20,7 +24,18 @@
 .user-component__subtitle {
   font-size: 18px;
   opacity: 0.5;
-  margin-top: 10px;
+}
+.user-component__notice {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #ff6229;
+  border-radius: 50%;
+  color: #ff6229;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  margin-left: 5px;
 }
 .user-component__avatar-xl {
   height: 80px;
