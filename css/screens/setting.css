@@ -1,0 +1,14 @@
+.settings-setting {
+  padding: 15px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.settings-setting i {
+  margin-right: 25px;
+}
+.settings-setting:last-child {
+  border-bottom: var(--main-border);
+  padding-bottom: 50px;
+}
