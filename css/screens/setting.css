@@ -1,3 +1,6 @@
+.settings-screen {
+  margin-top: 80px;
+}
 .settings-setting {
   padding: 15px;
   font-size: 25px;
@@ -11,4 +14,9 @@
 .settings-setting:last-child {
   border-bottom: var(--main-border);
   padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.settings-setting__column:last-child {
+  opacity: 0.5;
 }

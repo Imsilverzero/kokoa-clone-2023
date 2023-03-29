@@ -1,14 +1,26 @@
 .alt-header {
   padding: var(--horizontal-space);
   display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 9;
 }
-.alt-header__column:first-child {
-  margin-right: auto;
+.alt-header__column {
+  width: 33%;
+}
+.alt-header__column:nth-child(2) {
+  text-align: center;
 }
 .alt-header__column:last-child {
-  margin-left: auto;
+  text-align: end;
 }
 .alt-header__column h1 {
   font-weight: 400;
   font-size: 25px;
+}
+.alt-header__column .fa-bars {
+  margin-left: 30px;
 }
